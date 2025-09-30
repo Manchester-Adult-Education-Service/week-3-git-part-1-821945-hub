@@ -14,9 +14,12 @@
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
 
-ame=input("Enter your name ")
-age=input("Enter your age ")
-print(f"Great, your name is {name} and next year you will be {age + 1}")
+name=input("Enter your name ")
+age=int(input("Enter your age "))
+favColor=input("Whats your favourite color? ")
+favFood=input("whats your favourite food? ")
+print(f"Hello {name}, next year you will be {age + 1}. Your favourite colour is {favColor} and you really like {favFood}!")
+
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
