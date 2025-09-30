@@ -14,6 +14,9 @@
 # - Prints a message like:
 #   "Hello Alice, next year you will be 26!"
 
+ame=input("Enter your name ")
+age=input("Enter your age ")
+print(f"Great, your name is {name} and next year you will be {age + 1}")
 # HINTS:
 # name = input("What is your name? ")
 # age = int(input("How old are you? "))
